@@ -1,0 +1,193 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(black, grey);
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 40px;
+    width: auto;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Main content styles */
+div {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.welcome {
+    background-color: #d3d3d3;
+    margin: 0px;
+    text-align: left;
+}
+
+.foto-saya {
+    margin-right: 20px; /* Memberi jarak antara gambar dan teks */
+}
+
+.bio {
+    color: #333;
+}
+.bio p {
+    color: #333;
+    text-align: center;
+}
+.bio h2 {
+    color: #333;
+    text-align: center;
+}
+.pinggir {
+    
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.saya {
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Gaya untuk div dengan kelas "keahlian" */
+.keahlian {
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.keahlian h2 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.keahlian p {
+    color: #555;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.keahlian p:last-child {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* Gaya untuk div dengan kelas "testimoni" */
+.testimoni {
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.portofolio {
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+.contact {
+    background-color: #d3d3d3;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 8px;
+    text-align: center;}
+
+.contact form {
+    text-align: left;}
+
+/* Footer styles */
+footer {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer footer-center {
+    font-size: small;
+}
+
+.footer-center a,
+.footer-right a {
+    font-size: 0.8em; /* Atur ukuran font */
+    margin: 0 5px; /* Atur margin kanan dan kiri */
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header div:last-child {
+        margin-top: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer div:last-child {
+        margin-top: 20px;
+    }
+}
